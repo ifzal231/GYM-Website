@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 600px;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
+    filter: invert(1);
+}
+
+.cont ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    border: 0px solid black;
+
+    cursor: pointer;
+}
+
+
+
+
+.cont li {
+    list-style: none;
+    margin: 9px;
+    color: white;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.workout {
+    background-image: url(/img/cardio-workout.jpg);
+    width: 100%;
+    height: 95vh;
+    text-align: center;
+    background-size: cover;
+}
+
+.workout input {
+    padding: 15px 90px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border: 2px solid #176B87;
+    font-size: 25px;
+    color: black;
+    margin-top: 4rem;
+
+}
+
+.workout input:hover {
+    background-color: #176B87;
+    color: white;
+    transition: background-color .5s;
+}
+
+.workout h1 {
+
+    color: white;
+    padding-top: 25rem;
+    font-family: "roboto", sans-serif;
+    font-size: 70px;
+
+}
+
+.cardio h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.cont li:hover {
+    color: teal;
+}
+
+
+.bench {
+    width: 100%;
+    text-align: center;
+}
+
+.bench img {
+    width: 30%;
+    height: auto;
+    padding: 15px;
+    transition: all 0.5s;
+}
+
+.bench img:hover {
+    transform: scale(1.08);
+}
+
+.pricing {
+    display: flex;
+    background-color: black;
+    padding-top: 40px;
+
+}
+
+.box {
+    width: 30%;
+    height: 20vh;
+    border: 2px solid black;
+    padding-top: 60px;
+    margin: 50px;
+    text-align: center;
+    align-items: center;
+
+}
+
+#box1 {
+    background-image: url(/img/thumb);
+    background-size: cover;
+    color: aliceblue;
+    height: 50vh;
+    width: 85%;
+    background-position-x: -95px;
+    font-size: 30px;
+
+}
+
+#box2 {
+    background-image: url(/img/pull-up);
+    background-size: cover;
+    color: aliceblue;
+    height: 50vh;
+    width: 85%;
+    background-position-x: -85px;
+    font-size: 30px;
+}
+
+#box3 {
+    background-image: url(/img/back-flip);
+    background-size: cover;
+    color: aliceblue;
+    background-position-x: -70px;
+    height: 50vh;
+    width: 85%;
+
+    font-size: 30px;
+}
+
+.d {
+    width: 33%;
+    margin-bottom: 3%;
+}
+
+.pricing .d h4 {
+    border: 2px solid #176B87;
+    border-radius: 20px;
+    color: #053B50;
+    width: 40%;
+    padding: 18px;
+    font-size: 25px;
+    margin-left: 30%;
+    justify-content: space-between;
+    font-family: "roboto", sans-serif;
+}
+
+
+.pricing .d h4:hover {
+    background-color: #176B87;
+    color: white;
+    transition: 0.2s;
+}
+
+footer {
+    list-style: none;
+    background-color: #F1F0E8;
+    /* background-color: black; */
+    /* margin: 4%; */
+}
+
+footer .na {
+    /* margin-top: 10px; */
+    padding: 28px;
+    display: flex;
+    gap: 7%;
+    width: 100%;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 25px;
+    border-bottom: 1.2px solid black;
+}
+
+footer .na li:hover {
+    border-bottom: 3.5px solid #176B87;
+
+}
+
+footer .icon {
+    display: flex;
+    gap: 7%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2%;
+
+
+}
+
+footer .icon li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+footer .icon li a:hover {
+    color: #176B87;
+}
+
+footer .icon li a i {
+    padding-right: 7px;
+}
+
+
+.c h3 {
+
+    width: 100%;
+    margin-top: 2%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* responsiveselection */
+
+@media(max-width:1650px) {
+    .pricing .d h4 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:1600px) {
+    .pricing .d h4 {
+        font-size: 18px;
+
+    }
+}
+
+@media(max-width:1450px) {
+    .pricing .d h4 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1300px) {
+    .pricing .d h4 {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1200px) {
+    .pricing .d h4 {
+        font-size: 13px;
+    }
+
+    .cont li {
+        margin: 6px;
+        font-size: 17px;
+    }
+
+}
+
+@media(max-width:1150px) {
+
+    .cont li {
+        font-size: 16px;
+        margin-top: 13px;
+    }
+
+
+    .workout h1 {
+        font-size: 55px;
+    }
+}
+
+@media(max-width:1100px) {
+    .cont li {
+        font-size: 12px;
+
+    }
+
+    .navbar {
+        gap: 550px;
+    }
+
+    .cont ul {
+        margin-top: 3%;
+    }
+
+    .pricing {
+        width: 100%;
+    }
+
+    .pricing .d h4 {
+        font-size: 11px;
+    }
+
+    .d {
+        width: 32%;
+    }
+
+    #box1 {
+        background-position-x: -100px;
+    }
+
+    #box3 {
+        background-position-x: -134px;
+    }
+
+    .pricing .d h4 {
+        margin-left: 35%;
+    }
+}
+
+
+@media(max-width:1050px) {
+    .navbar {
+        gap: 510px;
+    }
+
+    .pricing .d h4 {
+        font-size: 10px;
+    }
+
+    footer .na li {
+        font-size: 16px;
+    }
+
+    footer .icon li a {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .navbar {
+        gap: 470px;
+    }
+
+    .pricing .d h4 {
+        width: 41%;
+    }
+}
+
+@media(max-width: 950px) {
+    .navbar {
+        gap: 430px;
+    }
+
+    .pricing .d h4 {
+        width: 42%;
+    }
+}
+
+@media(max-width: 950px) {
+    .navbar {
+        gap: 385px;
+    }
+}
+
+@media(max-width: 900px) {
+    .pricing {
+        flex-direction: column;
+    }
+
+    .d {
+        width: 100%;
+    }
+/* 
+    #box1 {
+        width: 65%;
+        transform: translate(110px,0px);
+    }
+
+    #box2 {
+        width: 65%;
+        transform: translate(110px,0px);
+    }
+    #box3 {
+        width: 65%;
+        transform: translate(110px,0px);
+    } */
+
+    .pricing .d h4 {
+        width: 30%;
+        font-size: 24px;
+    }
+    .pricing #three {
+        margin-bottom: 9%;
+    }
+    .cont ul {
+        display: flex;
+        gap: 35px;
+        justify-content: center;
+        border: 0px solid black;
+        cursor: pointer;
+
+}
+}
+
+@media(max-width:850px){
+    .cont li{
+        font-size: 11px;
+    }
+    .cont ul {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        border: 0px solid black;
+        cursor: pointer;
+    }
+
+
+}
+
+@media(max-width:800px){
+    .cont li{
+        font-size: 10px;
+    }
+
+    .cont ul {
+        display: flex;
+        gap: 20px;
+   }
+
+   .pricing .d h4{
+    font-size: 20px;
+   }
+}
+
+@media(max-width:750px){
+    .navbar {
+        gap: 285px;
+    }
+    .cont li {
+        font-size: 14px;
+    }
+    .cont ul {
+        display: flex;
+        gap: 1px;
+        /* font-weight: 20px; */
+    }
+
+    .workout h1{
+        font-size: 40px;
+    }
+}
+
+
+@media(max-width:700px){
+    .cont li {
+        font-size: 11px;
+        padding: 3px;
+    }
+
+    .pricing .d h4{
+        font-size: 17px;
+    }
+}
+
+@media(max-width:650px){
+    .workout{
+        width: 100%;
+    }
+
+    .pricing{
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        gap: 243px;
+    }
+    .workout h1 {
+        font-size: 28px;
+    }
+
+    .workout input {
+        padding: 5px 25px;
+    }
+
+    .pricing .d h4{
+        font-size: 16px;
+    }
+
+    
+}
+
+@media(max-width:600px){
+    .pricing .d h4{
+        font-size: 15px;
+    }
+
+    .navbar{
+        gap: 30%;
+    }
+    
+    .workout{
+         background-position-x: -200px;
+    }
+
+    .c h3{
+        width: 100%;
+    }
+ } 
+
+ @media(max-width:550px){
+    .navbar {
+        gap: 9%;
+    }
+
+    .pricing .d h4{
+        font-size: 9px;
+    }
+ }
+
+ @media(max-width:500px) {
+   #box1{
+    width: 80%;
+    margin-left: 10%;
+   }
+   #box2{
+    width: 80%;
+    margin-left: 10%;
+   }
+   #box3{
+    width: 80%;
+    margin-left: 10%;
+   }
+ }
+ @media(max-width:450px) {
+    .workout {
+        background-position-x: -270px;
+    }
+
+   
+ }
+
+ @media(max-width:400px){
+    .cont li{
+        font-size: 10px;
+    }
+
+    .cardio h1{
+        font-size: 30px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    } 
+    
+    .pricing .d h4 {
+        font-size: 8px;
+    }
+
+    footer .icon{
+        gap: 3%;
+    }
+}
+
+@media(max-width:350px){
+    .navbar {
+        gap: 6%;
+    }
+
+    .pricing .d h4 {
+        font-size: 7px;
+    }
+}
+ 
