@@ -69,12 +69,16 @@
 }
 
 .workout h1 {
-
+    cursor: pointer;
     color: white;
     padding-top: 25rem;
     font-family: "roboto", sans-serif;
     font-size: 70px;
 
+}
+
+.workout h1:hover {
+    color: #176B87;
 }
 
 .cardio h1 {
@@ -384,7 +388,8 @@ footer .icon li a i {
     .d {
         width: 100%;
     }
-/* 
+
+    /* 
     #box1 {
         width: 65%;
         transform: translate(110px,0px);
@@ -403,9 +408,11 @@ footer .icon li a i {
         width: 30%;
         font-size: 24px;
     }
+
     .pricing #three {
         margin-bottom: 9%;
     }
+
     .cont ul {
         display: flex;
         gap: 35px;
@@ -413,13 +420,14 @@ footer .icon li a i {
         border: 0px solid black;
         cursor: pointer;
 
-}
+    }
 }
 
-@media(max-width:850px){
-    .cont li{
+@media(max-width:850px) {
+    .cont li {
         font-size: 11px;
     }
+
     .cont ul {
         display: flex;
         gap: 25px;
@@ -431,63 +439,67 @@ footer .icon li a i {
 
 }
 
-@media(max-width:800px){
-    .cont li{
+@media(max-width:800px) {
+    .cont li {
         font-size: 10px;
     }
 
     .cont ul {
         display: flex;
         gap: 20px;
-   }
+    }
 
-   .pricing .d h4{
-    font-size: 20px;
-   }
+    .pricing .d h4 {
+        font-size: 20px;
+    }
 }
 
-@media(max-width:750px){
+@media(max-width:750px) {
     .navbar {
         gap: 285px;
     }
+
     .cont li {
         font-size: 14px;
     }
+
     .cont ul {
         display: flex;
         gap: 1px;
         /* font-weight: 20px; */
     }
 
-    .workout h1{
+    .workout h1 {
         font-size: 40px;
     }
 }
 
 
-@media(max-width:700px){
+@media(max-width:700px) {
     .cont li {
         font-size: 11px;
         padding: 3px;
     }
 
-    .pricing .d h4{
+    .pricing .d h4 {
         font-size: 17px;
     }
 }
 
-@media(max-width:650px){
-    .workout{
+@media(max-width:650px) {
+    .workout {
         width: 100%;
     }
 
-    .pricing{
+    .pricing {
         width: 100%;
     }
+
     .navbar {
         width: 100%;
         gap: 243px;
     }
+
     .workout h1 {
         font-size: 28px;
     }
@@ -496,86 +508,89 @@ footer .icon li a i {
         padding: 5px 25px;
     }
 
-    .pricing .d h4{
+    .pricing .d h4 {
         font-size: 16px;
     }
 
-    
+
 }
 
-@media(max-width:600px){
-    .pricing .d h4{
+@media(max-width:600px) {
+    .pricing .d h4 {
         font-size: 15px;
     }
 
-    .navbar{
+    .navbar {
         gap: 30%;
     }
-    
-    .workout{
-         background-position-x: -200px;
+
+    .workout {
+        background-position-x: -200px;
     }
 
-    .c h3{
+    .c h3 {
         width: 100%;
     }
- } 
+}
 
- @media(max-width:550px){
+@media(max-width:550px) {
     .navbar {
         gap: 9%;
     }
 
-    .pricing .d h4{
+    .pricing .d h4 {
         font-size: 9px;
     }
- }
+}
 
- @media(max-width:500px) {
-   #box1{
-    width: 80%;
-    margin-left: 10%;
-   }
-   #box2{
-    width: 80%;
-    margin-left: 10%;
-   }
-   #box3{
-    width: 80%;
-    margin-left: 10%;
-   }
- }
- @media(max-width:450px) {
+@media(max-width:500px) {
+    #box1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #box2 {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #box3 {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media(max-width:450px) {
     .workout {
         background-position-x: -270px;
     }
 
-   
- }
 
- @media(max-width:400px){
-    .cont li{
+}
+
+@media(max-width:400px) {
+    .cont li {
         font-size: 10px;
     }
 
-    .cardio h1{
+    .cardio h1 {
         font-size: 30px;
     }
 
     .logo {
         margin-left: 20px;
-    } 
-    
+    }
+
     .pricing .d h4 {
         font-size: 8px;
     }
 
-    footer .icon{
+    footer .icon {
         gap: 3%;
     }
 }
 
-@media(max-width:350px){
+@media(max-width:350px) {
     .navbar {
         gap: 6%;
     }
@@ -584,4 +599,3 @@ footer .icon li a i {
         font-size: 7px;
     }
 }
- 
